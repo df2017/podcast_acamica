@@ -1,0 +1,79 @@
+@media (max-width: 530px) {
+  /* ------------------------- 1-Block-header ------------------------- */
+  .container .block-header .navbar {
+    width: 100%;
+    transform: translateX(-100%);
+    transition: all 0.8s ease-out;
+    display: flex;
+    flex-direction: column; 
+  }
+
+  /* ------------------------- 2-Block-title ------------------------- */
+  .container .block-title {
+    margin-left: 16px;
+    margin-right: 16px;
+    margin-top: -260px;
+    margin-bottom: 10px; 
+  }
+
+  /* ------------------------- 3-Block-episodes ------------------------- */
+  .container .block-episodes .epititle {
+    font-weight: 100;
+    margin-left: 16px;
+    margin-top: 100px;
+    padding: 20px 0px; 
+  }
+  .container .block-episodes .groupepi {
+    align-content: center; 
+  }
+  .container .block-episodes:before {
+    border-bottom: 50px solid transparent;
+    border-left: 100vw solid #FFFFFF;
+    top: 0px; 
+  }
+  .container .block-episodes:after {
+    border-top: 50px solid transparent;
+    border-right: 100vw solid #FFFFFF;
+    bottom: 0px; 
+  }
+  .container .block-episodes .groupepi{
+    margin-bottom: 170px;
+  }
+
+  /* ------------------------- 4-Block-phone ------------------------- */
+  .container .block-phone {
+    margin-left: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px; 
+  }
+  .container .block-phone .image-phone{
+    width: 100%;
+    text-align: center;
+  }
+  .container .block-phone .text-phone{
+    margin-top: 0px;
+    margin-left: 0px;
+  }
+
+  /* ------------------------- 6-Block-us ------------------------- */
+  .container .block-us {
+    margin-left: 16px;
+    margin-right: 0px;
+    margin-top: 45px;
+    justify-content: center; 
+  }
+  /* ------------------------- 7-Block-news ------------------------- */
+  .container .block-news:before {
+    border-bottom: 40px solid transparent;
+    border-left: 100vw solid #FFFFFF;
+    top: 0px; 
+  }
+
+  /* ------------------------- 8-Block-footer ------------------------- */
+  .container .block-footer {
+    justify-content: center; 
+  }
+  .container .block-footer .social {
+    margin-right: 0px; 
+  }  
+}

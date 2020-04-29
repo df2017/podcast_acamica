@@ -1,0 +1,126 @@
+@media (min-width: 531px) and (max-width: 1130px) {
+
+    /* ------------------------- 1-Block-header ------------------------- */
+    .block-header .navbar{
+        text-align: center;
+        width: 100%;
+    }
+    .block-header .navbar a{
+        padding: 10px;
+    }
+
+    /* ------------------------- 2-Block-title ------------------------- */
+    .container .block-title{
+        margin-left: 16px;
+        margin-right: 15px;
+        margin-top: 100px;
+    }
+    .container .block-title p{
+        margin-top: 10px;
+    }
+    .container .block-title button{
+        background: #00F3BB;
+        width: 100%;
+        height: 48px;
+        margin-top: 36px;
+    }
+
+    /* ------------------------- 3-Block-episodes ------------------------- */
+    .container .block-episodes .epititle {
+        font-weight: 100;
+        margin-left: 20px;
+        margin-top: 100px;
+        padding: 20px 0px; 
+    }
+    .container .block-episodes:before {
+        border-bottom: 80px solid transparent;
+        border-left: 100vw solid #FFFFFF;
+        top: 0px; 
+    }
+    .container .block-episodes:after {
+        border-top: 80px solid transparent;
+        border-right: 100vw solid #FFFFFF;
+        bottom: 0px; 
+    }
+    .container .block-episodes .groupepi{
+        margin-bottom: 170px;
+        flex-direction: column;
+    }
+    .container .block-episodes .groupepi iframe{
+        height: 245px; 
+        width: 92%;
+        padding: 5px 20px;
+    }
+
+    /* ------------------------- 4-Block-phone ------------------------- */
+    .container .block-phone {
+        margin-left: 0px;
+        margin-top: 0px;
+        margin-bottom: 0px;
+    }
+    .container .block-phone .image-phone{
+        display: flex;
+        width: 100%;
+        justify-content: center;
+    }
+    .container .block-phone .text-phone{
+        margin-top: 50px;
+        margin-left: 16px;
+        margin-bottom: 20px;
+    }
+    .container .block-phone .image-phone img{
+        position: relative;
+        width: 460px;
+        height: 660px;
+        margin-left: 0px;
+        margin-top: -140px
+    }
+    .block-phone .text-phone{
+        padding: 5px 0px;
+    }
+    .block-phone .text-phone p {
+        padding: 5px 0px;
+        width: 90%;
+    }
+    
+    /* ------------------------- 5-Block-photos ------------------------- */
+    .container .block-photos{
+        margin-top: 50px;
+    }
+    .container .block-photos h2{
+        margin-left: 16px;
+    }
+
+    /* ------------------------- 6-Block-us ------------------------- */
+    .container .block-us {
+        margin-left: 16px;
+        margin-right: 0px;
+        margin-top: 45px;
+        justify-content: center; 
+    }
+    .container .block-us h2{
+        text-align: left; 
+    }
+    
+    /* ------------------------- 7-Block-news ------------------------- */
+    .container .block-news:before {
+        border-bottom: 60px solid transparent;
+        border-left: 100vw solid #FFFFFF;
+        top: 0px; 
+    }
+    .container .block-news h2{
+        margin-top: 200px;
+    }
+
+    /* ------------------------- 8-Block-footer ------------------------- */
+    .container .block-footer {
+        justify-content: center; 
+    }
+    .container .block-footer h4{
+        margin-left: 0px; 
+    }
+    .container .block-footer .social {
+        margin-right: 0px; 
+    }
+    
+}

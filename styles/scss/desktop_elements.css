@@ -1,0 +1,174 @@
+/* ------------- Config ------------- */
+/* titles */
+/* paragraphs */
+/* Size Desktop */
+/* Title Primary */
+/* Title Secondary */
+/* Anchors  and Paragraphs */
+/* Colors */
+/* -------------------- Elements General  -------------------- */
+h2 {
+  font-family: "IBM Plex Sans", sans-serif;
+  font-size: 48px;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: 42px; }
+
+p, h4 {
+  font-family: "IBM Plex Mono", monospace;
+  font-size: 16px;
+  color: #060A24;
+  letter-spacing: 0; }
+
+/* -------------------- Elements  1-block-header -------------------- */
+.block-header .navbar a {
+  padding: 26px;
+  font-family: "IBM Plex Mono", monospace;
+  font-size: 16px;
+  color: #060A24;
+  letter-spacing: 0;
+  text-decoration: none; }
+
+.block-header .navbar a:hover {
+  color: #00F3BB;
+  text-decoration: line-through;
+  transition: all 0.3s; }
+
+.block-header .navbar a:active {
+  color: #060A24;
+  text-decoration: line-through; }
+
+.block-header .logo img {
+  width: 36px;
+  height: 36px;
+  padding: 26px;
+  animation: float 10s ease-in-out infinite; }
+
+@keyframes float {
+  0% {
+    transform: rotateX(0deg); }
+  50% {
+    transform: rotateX(360deg); }
+  75% {
+    transform: rotateY(0deg); }
+  100% {
+    transform: rotateY(360deg); } }
+.block-header input, #close, #open {
+  display: none; }
+
+/* -------------------- Elements  2-block-title  -------------------- */
+.block-title h1 {
+  font-family: "IBM Plex Sans", sans-serif;
+  font-size: 64px;
+  font-weight: 400;
+  color: #060A24;
+  letter-spacing: 0; }
+
+#part2 {
+  text-decoration: line-through;
+  padding: 0px 10px; }
+
+.block-title .point {
+  color: #0000EC; }
+
+.block-title p {
+  line-height: 24px;
+  width: 70%;
+  margin-right: 20%; }
+
+.block-title button, .block-news button {
+  font-family: "IBM Plex Mono", monospace;
+  font-weight: 700;
+  font-size: 18px;
+  color: #060A24;
+  letter-spacing: 0;
+  text-align: center;
+  line-height: 24px;
+  background: #00F3BB;
+  width: 288px;
+  height: 56px;
+  border: 0px;
+  margin-top: 56px;
+  margin-bottom: 10px; }
+
+.block-news button {
+  margin-top: 36px;
+  margin-bottom: 150px; }
+
+.container .block-title button:hover {
+  background-image: linear-gradient(225deg, #0000FE 10%, #00F0B8 90%);
+  color: #FFFFFF; }
+
+/* -------------------- Elements 3-block-episodes -------------------- */
+.block-episodes .epititle {
+  position: relative;
+  margin-left: 200px;
+  margin-top: 180px;
+  color: #FFFFFF;
+  height: 65px; }
+
+.block-episodes .groupepi iframe {
+  padding: 35px;
+  width: 40%;
+  height: 232px; }
+
+/* -------------------- Elements 4-block-phone -------------------- */
+.block-phone .image-phone img {
+  position: relative;
+  width: 460px;
+  height: 660px; }
+
+.block-phone .text-phone p {
+  padding: 5px 0px;
+  width: 470px; }
+
+.block-phone .text-phone h2 {
+  padding: 24px 0px; }
+
+/* -------------------- Elements 5-block-photos -------------------- */
+.block-photos img {
+  width: 33.3%; }
+
+.block-photos h2 {
+  height: 62px;
+  margin-left: 200px; }
+
+/* -------------------- Elements 6-block-us -------------------- */
+.block-us h2 {
+  height: 65px;
+  width: 100%; }
+
+.block-us .icon-us img {
+  padding: 0px 20px;
+  width: 100px;
+  height: 100px; }
+
+.block-us .icon-us h3 {
+  font-family: "IBM Plex Sans", sans-serif;
+  font-weight: 600;
+  font-size: 24px;
+  text-align: center;
+  width: 220px;
+  padding: 10px 20px; }
+
+/* -------------------- Elements 7-block-news -------------------- */
+.block-news h2 {
+  color: #FFFFFF;
+  margin-top: 220px;
+  text-align: center; }
+
+/* -------------------- Elements 8-block-footer -------------------- */
+.block-footer .copyrigth h4 {
+  padding: 32px;
+  margin-left: 70px; }
+
+.block-footer .social a {
+  padding: 30px;
+  font-size: 18px;
+  color: #060A24; }
+
+.block-footer .social a:hover {
+  transition: all 0.8s;
+  transform: rotate(360deg); }
+
+/*# sourceMappingURL=desktop_elements.css.map */

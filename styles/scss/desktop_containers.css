@@ -1,0 +1,104 @@
+/* Containers */
+.container, .block-header, .block-title, .block-episodes, .block-episodes .groupepi, .block-phone, .block-photos, .block-photos .image-photos, .block-us, .block-us .icon-us, .block-news, .block-footer, .block-footer .social {
+  display: flex;
+  flex-flow: row wrap;
+  width: 100%; }
+
+.container {
+  overflow: hidden; }
+
+/* ------------------------- 1-Block-header ------------------------- */
+.block-header {
+  background: #FFFFFF;
+  justify-content: space-between;
+  align-items: center;
+  opacity: 100%; }
+
+/* ------------------------- 2-Block-title ------------------------- */
+.block-title {
+  align-items: center;
+  margin-left: 145px;
+  margin-right: auto;
+  margin-top: 120px; }
+
+/* ------------------------- 3-Block-episodes ------------------------- */
+.block-episodes {
+  position: relative;
+  background-image: linear-gradient(225deg, #0000FF 0%, #0000A3 100%); }
+
+.block-episodes:before {
+  content: '';
+  position: absolute;
+  border-bottom: 150px solid transparent;
+  border-left: 100vw solid #FFFFFF;
+  top: 0px; }
+
+.block-episodes:after {
+  content: '';
+  position: absolute;
+  border-top: 150px solid transparent;
+  border-right: 100vw solid #FFFFFF;
+  bottom: 0px; }
+
+.block-episodes .groupepi {
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 230px; }
+
+/* ------------------------- 4-Block-phone ------------------------- */
+.block-phone {
+  margin-left: 150px;
+  margin-top: -180px;
+  margin-bottom: 50px; }
+
+.block-phone .text-phone {
+  margin-top: 170px;
+  margin-left: 50px; }
+
+/* ------------------------- 5-Block-photos ------------------------- */
+.block-photos .image-photos {
+  margin-top: 36px;
+  justify-content: center; }
+
+/* ------------------------- 6-Block-us ------------------------- */
+.block-us {
+  width: auto;
+  margin-top: 65px;
+  margin-bottom: 30px;
+  margin-left: 150px;
+  margin-right: 150px;
+  justify-content: center;
+  align-items: flex-start; }
+
+.block-us .icon-us {
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 70px;
+  width: auto; }
+
+/* ------------------------- 7-Block-news ------------------------- */
+.block-news {
+  position: relative;
+  flex-direction: column;
+  align-items: center;
+  background-image: linear-gradient(225deg, #0000FF 0%, #0000A3 100%); }
+
+.block-news:before {
+  content: '';
+  position: absolute;
+  border-bottom: 150px solid transparent;
+  border-left: 100vw solid #FFFFFF;
+  top: 0px; }
+
+/* ------------------------- 8-Block-footer ------------------------- */
+.block-footer {
+  justify-content: space-between;
+  align-items: center; }
+
+.block-footer .social {
+  align-items: center;
+  margin-right: 100px;
+  width: auto; }
+
+/*# sourceMappingURL=desktop_containers.css.map */
